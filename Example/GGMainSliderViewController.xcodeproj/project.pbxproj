@@ -38,10 +38,10 @@
 
 /* Begin PBXFileReference section */
 		0064C4DABBEC993A9805F050 /* Pods-GGMainSliderViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGMainSliderViewController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GGMainSliderViewController_Tests/Pods-GGMainSliderViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		15C2324345BB73D68B0CBCEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		180A6B241E8E9250DBB81D98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		15C2324345BB73D68B0CBCEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		180A6B241E8E9250DBB81D98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		25E881727DE55C15FB936FDD /* Pods-GGMainSliderViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGMainSliderViewController_Example.release.xcconfig"; path = "Target Support Files/Pods-GGMainSliderViewController_Example/Pods-GGMainSliderViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2A0DBFEC55418184B857BF17 /* GGMainSliderViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GGMainSliderViewController.podspec; path = ../GGMainSliderViewController.podspec; sourceTree = "<group>"; };
+		2A0DBFEC55418184B857BF17 /* GGMainSliderViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GGMainSliderViewController.podspec; path = ../GGMainSliderViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3566C7138D95ECAAC08AF27F /* Pods-GGMainSliderViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GGMainSliderViewController_Example.debug.xcconfig"; path = "Target Support Files/Pods-GGMainSliderViewController_Example/Pods-GGMainSliderViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GGMainSliderViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGMainSliderViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -103,7 +103,6 @@
 				0064C4DABBEC993A9805F050 /* Pods-GGMainSliderViewController_Tests.debug.xcconfig */,
 				9692969495E354E2F870E0D2 /* Pods-GGMainSliderViewController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -300,15 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-GGMainSliderViewController_Tests-checkManifestLockResult.txt",
 			);
@@ -340,15 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-GGMainSliderViewController_Example-checkManifestLockResult.txt",
 			);

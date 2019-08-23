@@ -1,0 +1,6 @@
+framework module GGMainSliderViewController {
+  umbrella header "GGMainSliderViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

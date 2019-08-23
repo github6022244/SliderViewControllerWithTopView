@@ -1,0 +1,16 @@
+PODS:
+  - GGMainSliderViewController (0.1.0)
+
+DEPENDENCIES:
+  - GGMainSliderViewController (from `../`)
+
+EXTERNAL SOURCES:
+  GGMainSliderViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GGMainSliderViewController: d8b91148019f53f9f7435a7168eca2d2a0adc111
+
+PODFILE CHECKSUM: 5fcaa8accc9c5b648af4472c1947096844026591
+
+COCOAPODS: 1.7.4

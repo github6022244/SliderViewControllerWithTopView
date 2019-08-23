@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GGMainSliderViewController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GGMainSliderViewController.'
+  s.summary          = '带顶部视图的滑动分类控制器，类似新浪微博个人中心'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
