@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "GGMainSliderViewController.h"
+#import "UIViewController+GGSliderFunc.h"
 
 FOUNDATION_EXPORT double GGMainSliderViewControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char GGMainSliderViewControllerVersionString[];

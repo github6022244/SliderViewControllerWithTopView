@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3913D0EA2C86FFD46A4C6592CB1A78D5 /* GGMainSliderViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7ADEB77AE0767E0E57418EC34EC0926 /* GGMainSliderViewController-dummy.m */; };
+		0E6D0616737AD587F2AE71DD075B3BF1 /* GGMainSliderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 208EE81CBEA36CA5314773D3137CD543 /* GGMainSliderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13FC1B889B7E5DA1CA82F54285C33EB0 /* GGMainSliderViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3587AD4EAD6F576A785765C6F9F799 /* GGMainSliderViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		466051E3566245666755D4EE540D0909 /* GGMainSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F1069D9B16BDAED6FE932A408BDAD1 /* GGMainSliderViewController.m */; };
 		4D1ADF86349A4B370C8EC94EE413558B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		913F12E88D79583506D947CCFA8652C2 /* GGMainSliderViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED2AC3A16D0D965D4C3805FDE98BDF4 /* GGMainSliderViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63ECBA0E1AD76C5D127B7EBE5B7A8174 /* GGMainSliderViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A803BB378B431A93D25C525A8652CFC /* GGMainSliderViewController-dummy.m */; };
+		6D05143664817BF9B898846DDC19C1F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A785142B06EDCAE27EEAD9D70F0D5568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		AA1733F080DE443CC65F70F93A2ACBCA /* Pods-GGMainSliderViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 279E117C7793F3482B1CC7EA7FA41D73 /* Pods-GGMainSliderViewController_Tests-dummy.m */; };
-		CCE0160A869AD5E908FD1F2289259492 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B47A80FFA02C6176EAEB8389E1AD5 /* ReplaceMe.m */; };
+		C42A4AE5B7D2DDDBBC53F95BA4D26149 /* UIViewController+GGSliderFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF499E6EF60C7497AD6DD8621CBEB36 /* UIViewController+GGSliderFunc.m */; };
 		DD47950F28DB73B27AD5641A9EA6554D /* Pods-GGMainSliderViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB2C9E37AB08BEF1DA4AFE79B5D32EE /* Pods-GGMainSliderViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2CDD57B8220574401FEED5383BC09E6 /* Pods-GGMainSliderViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9968BB96674A96AEB1369E72C1C750AB /* Pods-GGMainSliderViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E315D7680883270741BCA1A00288D944 /* Pods-GGMainSliderViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8D6E50108DD8EAE75F7EF44B62C144C /* Pods-GGMainSliderViewController_Example-dummy.m */; };
-		F57F17C35A56D17A177FB973C4291C26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FD30010F29A00F846CE11973970CF811 /* UIViewController+GGSliderFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B3E2E4DA2F5809848B451D405A24C1E /* UIViewController+GGSliderFunc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,53 +41,56 @@
 
 /* Begin PBXFileReference section */
 		0A6F5CE62930EA343353B7AD87F665E6 /* Pods-GGMainSliderViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGMainSliderViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		185B47A80FFA02C6176EAEB8389E1AD5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GGMainSliderViewController/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		18A50F7928F155816F0800E3F7C7BC3C /* GGMainSliderViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GGMainSliderViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D6083BCCB5A85668619E58F8EC76A87 /* GGMainSliderViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGMainSliderViewController.modulemap; sourceTree = "<group>"; };
+		208EE81CBEA36CA5314773D3137CD543 /* GGMainSliderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGMainSliderViewController.h; path = GGMainSliderViewController/Classes/GGMainSliderViewController.h; sourceTree = "<group>"; };
 		2170D60F281096D3B54E46C825823D02 /* Pods-GGMainSliderViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGMainSliderViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		23F1069D9B16BDAED6FE932A408BDAD1 /* GGMainSliderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGMainSliderViewController.m; path = GGMainSliderViewController/Classes/GGMainSliderViewController.m; sourceTree = "<group>"; };
 		279E117C7793F3482B1CC7EA7FA41D73 /* Pods-GGMainSliderViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGMainSliderViewController_Tests-dummy.m"; sourceTree = "<group>"; };
 		2E7B81F45BD1F66CB52B04C41016EA92 /* Pods-GGMainSliderViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGMainSliderViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2F5C18CFF10CF482F9D6D342642E73FE /* GGMainSliderViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGMainSliderViewController.xcconfig; sourceTree = "<group>"; };
 		2FA8B3D4AABE5D1B1C39335CCC7B593D /* Pods_GGMainSliderViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GGMainSliderViewController_Tests.framework; path = "Pods-GGMainSliderViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B3E2E4DA2F5809848B451D405A24C1E /* UIViewController+GGSliderFunc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+GGSliderFunc.h"; path = "GGMainSliderViewController/Classes/UIViewController+GGSliderFunc.h"; sourceTree = "<group>"; };
 		46A003F20890F44275D31E2BAD266C67 /* Pods-GGMainSliderViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGMainSliderViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4A8629438E5C86A3FB0481ADE464F9DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		59FE177A398B4DD0350866BE0F77FC90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		560CC22B5D7D2681F6F693EC0B2454EC /* GGMainSliderViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGMainSliderViewController-prefix.pch"; sourceTree = "<group>"; };
 		62980FA2F2184E1D83A17E5639CF8597 /* Pods-GGMainSliderViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGMainSliderViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6A803BB378B431A93D25C525A8652CFC /* GGMainSliderViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGMainSliderViewController-dummy.m"; sourceTree = "<group>"; };
 		7DAC1365B18C383C128B08651DBB11FC /* Pods-GGMainSliderViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGMainSliderViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8589078DEBBCBD906166105EFD004A1E /* Pods-GGMainSliderViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGMainSliderViewController_Tests.modulemap"; sourceTree = "<group>"; };
-		8D1E2EC9C0653258065121CBE53EE945 /* GGMainSliderViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGMainSliderViewController.modulemap; sourceTree = "<group>"; };
-		8ED2AC3A16D0D965D4C3805FDE98BDF4 /* GGMainSliderViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGMainSliderViewController-umbrella.h"; sourceTree = "<group>"; };
 		98B1B78C6589ABB2C999EA6FFA8D9F36 /* Pods_GGMainSliderViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GGMainSliderViewController_Example.framework; path = "Pods-GGMainSliderViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9968BB96674A96AEB1369E72C1C750AB /* Pods-GGMainSliderViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGMainSliderViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF61F10E8F2A7E31BA8E30125697416 /* GGMainSliderViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGMainSliderViewController.xcconfig; sourceTree = "<group>"; };
 		9FCE5E17B228E9819699B35C48829C1B /* Pods-GGMainSliderViewController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGMainSliderViewController_Tests-Info.plist"; sourceTree = "<group>"; };
 		A208E9C85D1ACF767856C2AFCBD42B86 /* Pods-GGMainSliderViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGMainSliderViewController_Example-Info.plist"; sourceTree = "<group>"; };
 		A5A73DD0C6353282F3A2A58E6B765023 /* Pods-GGMainSliderViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGMainSliderViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B4608F35888602EF1325180DBD2E6631 /* GGMainSliderViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGMainSliderViewController-prefix.pch"; sourceTree = "<group>"; };
+		B2B2D9A4B4A8B48D0F83B39135F806B9 /* GGMainSliderViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGMainSliderViewController-Info.plist"; sourceTree = "<group>"; };
 		C8D6E50108DD8EAE75F7EF44B62C144C /* Pods-GGMainSliderViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGMainSliderViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		CBB2C9E37AB08BEF1DA4AFE79B5D32EE /* Pods-GGMainSliderViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGMainSliderViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CF0E5735635D6DA28B9F7FA8187B5968 /* Pods-GGMainSliderViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGMainSliderViewController_Example.modulemap"; sourceTree = "<group>"; };
 		D4FFF6A323DC8340B08FCB2DA3990AE5 /* GGMainSliderViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GGMainSliderViewController.framework; path = GGMainSliderViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7ADEB77AE0767E0E57418EC34EC0926 /* GGMainSliderViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGMainSliderViewController-dummy.m"; sourceTree = "<group>"; };
+		D5B53505FA70C70B184798481D28CFC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D92E3FE6705C2B1D7FD431938E25F1E3 /* Pods-GGMainSliderViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGMainSliderViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E883117954BE13EBA74A7DBC00F37B23 /* GGMainSliderViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGMainSliderViewController-Info.plist"; sourceTree = "<group>"; };
+		DB3587AD4EAD6F576A785765C6F9F799 /* GGMainSliderViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGMainSliderViewController-umbrella.h"; sourceTree = "<group>"; };
 		EA7A11164C53C7ECEAF4E4CCFDB357A4 /* Pods-GGMainSliderViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGMainSliderViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F791C64B6C9760A0F4C0A46AEEF9C690 /* GGMainSliderViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GGMainSliderViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA7662FF804C350429EA2DBBD8ECDE66 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FCF499E6EF60C7497AD6DD8621CBEB36 /* UIViewController+GGSliderFunc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+GGSliderFunc.m"; path = "GGMainSliderViewController/Classes/UIViewController+GGSliderFunc.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		17A6EF854CF314E0E5E88220AC5531E5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F57F17C35A56D17A177FB973C4291C26 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CFC2C99D1F3207D2646CB1FA706A6EAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4D1ADF86349A4B370C8EC94EE413558B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E673F38E6F163927243037D9F7A1B469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D05143664817BF9B898846DDC19C1F1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +105,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CFEBB3A0F08568EB09203F3DF879C4B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D6083BCCB5A85668619E58F8EC76A87 /* GGMainSliderViewController.modulemap */,
+				9DF61F10E8F2A7E31BA8E30125697416 /* GGMainSliderViewController.xcconfig */,
+				6A803BB378B431A93D25C525A8652CFC /* GGMainSliderViewController-dummy.m */,
+				B2B2D9A4B4A8B48D0F83B39135F806B9 /* GGMainSliderViewController-Info.plist */,
+				560CC22B5D7D2681F6F693EC0B2454EC /* GGMainSliderViewController-prefix.pch */,
+				DB3587AD4EAD6F576A785765C6F9F799 /* GGMainSliderViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GGMainSliderViewController";
+			sourceTree = "<group>";
+		};
 		1FD7B686D160C34C0C569BB86EEDFC1B /* Pods-GGMainSliderViewController_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,16 +136,6 @@
 			path = "Target Support Files/Pods-GGMainSliderViewController_Example";
 			sourceTree = "<group>";
 		};
-		23AE81B77C1A422E1350EAA0D737C3F2 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				18A50F7928F155816F0800E3F7C7BC3C /* GGMainSliderViewController.podspec */,
-				4A8629438E5C86A3FB0481ADE464F9DF /* LICENSE */,
-				59FE177A398B4DD0350866BE0F77FC90 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		3FB9A11AC2C16A5F2936FEA09E782FD8 /* Pods-GGMainSliderViewController_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,20 +150,6 @@
 			);
 			name = "Pods-GGMainSliderViewController_Tests";
 			path = "Target Support Files/Pods-GGMainSliderViewController_Tests";
-			sourceTree = "<group>";
-		};
-		43E74BA1E70C04BA62B66F44E4E25F05 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8D1E2EC9C0653258065121CBE53EE945 /* GGMainSliderViewController.modulemap */,
-				2F5C18CFF10CF482F9D6D342642E73FE /* GGMainSliderViewController.xcconfig */,
-				D7ADEB77AE0767E0E57418EC34EC0926 /* GGMainSliderViewController-dummy.m */,
-				E883117954BE13EBA74A7DBC00F37B23 /* GGMainSliderViewController-Info.plist */,
-				B4608F35888602EF1325180DBD2E6631 /* GGMainSliderViewController-prefix.pch */,
-				8ED2AC3A16D0D965D4C3805FDE98BDF4 /* GGMainSliderViewController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GGMainSliderViewController";
 			sourceTree = "<group>";
 		};
 		4A164AD1B79F7C580129979E4B1FE567 /* Products */ = {
@@ -175,15 +171,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A572D56B0D416738339A1B6BC41C4142 /* GGMainSliderViewController */ = {
+		96E660586AFBAB967D3D881B9716F03A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				185B47A80FFA02C6176EAEB8389E1AD5 /* ReplaceMe.m */,
-				23AE81B77C1A422E1350EAA0D737C3F2 /* Pod */,
-				43E74BA1E70C04BA62B66F44E4E25F05 /* Support Files */,
+				F791C64B6C9760A0F4C0A46AEEF9C690 /* GGMainSliderViewController.podspec */,
+				FA7662FF804C350429EA2DBBD8ECDE66 /* LICENSE */,
+				D5B53505FA70C70B184798481D28CFC9 /* README.md */,
 			);
-			name = GGMainSliderViewController;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -194,19 +189,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C8C90369FE1D74FF517C54688EBC9F52 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A572D56B0D416738339A1B6BC41C4142 /* GGMainSliderViewController */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C8C90369FE1D74FF517C54688EBC9F52 /* Development Pods */,
+				E64387EF5810A8A751AC75EBFEAC1918 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4A164AD1B79F7C580129979E4B1FE567 /* Products */,
 				6C11CDE976BE564455BDACB4A721C6B6 /* Targets Support Files */,
@@ -221,22 +208,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E64387EF5810A8A751AC75EBFEAC1918 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB9ECCF832FF905BFC7F84E9EC5832E6 /* GGMainSliderViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FB9ECCF832FF905BFC7F84E9EC5832E6 /* GGMainSliderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				208EE81CBEA36CA5314773D3137CD543 /* GGMainSliderViewController.h */,
+				23F1069D9B16BDAED6FE932A408BDAD1 /* GGMainSliderViewController.m */,
+				3B3E2E4DA2F5809848B451D405A24C1E /* UIViewController+GGSliderFunc.h */,
+				FCF499E6EF60C7497AD6DD8621CBEB36 /* UIViewController+GGSliderFunc.m */,
+				96E660586AFBAB967D3D881B9716F03A /* Pod */,
+				1CFEBB3A0F08568EB09203F3DF879C4B /* Support Files */,
+			);
+			name = GGMainSliderViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6654E3CDA423B18EB8C11BE8EC27D57C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				913F12E88D79583506D947CCFA8652C2 /* GGMainSliderViewController-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		88E7955B5BBD095BBF42D950103D60E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DD47950F28DB73B27AD5641A9EA6554D /* Pods-GGMainSliderViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CAE836D650DC126179F73E6EFFA263D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13FC1B889B7E5DA1CA82F54285C33EB0 /* GGMainSliderViewController-umbrella.h in Headers */,
+				0E6D0616737AD587F2AE71DD075B3BF1 /* GGMainSliderViewController.h in Headers */,
+				FD30010F29A00F846CE11973970CF811 /* UIViewController+GGSliderFunc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +283,12 @@
 		};
 		EFB705FB80CBDD3E355A6A7499062C1A /* GGMainSliderViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 394658DFC5A768C0882E6422878443E7 /* Build configuration list for PBXNativeTarget "GGMainSliderViewController" */;
+			buildConfigurationList = 0AF4F1218A4BC6417AA1441342DD5C0A /* Build configuration list for PBXNativeTarget "GGMainSliderViewController" */;
 			buildPhases = (
-				6654E3CDA423B18EB8C11BE8EC27D57C /* Headers */,
-				634588CF932508249FA0B084957548CB /* Sources */,
-				17A6EF854CF314E0E5E88220AC5531E5 /* Frameworks */,
-				7EB2AB0820022B16556D328DF552EBC9 /* Resources */,
+				8CAE836D650DC126179F73E6EFFA263D /* Headers */,
+				FA5F397F7BBC9837C2FA8C795302A677 /* Sources */,
+				E673F38E6F163927243037D9F7A1B469 /* Frameworks */,
+				919615C9CBDDB840BED4DF89DF80FDC9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -336,7 +347,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7EB2AB0820022B16556D328DF552EBC9 /* Resources */ = {
+		919615C9CBDDB840BED4DF89DF80FDC9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,20 +379,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		634588CF932508249FA0B084957548CB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3913D0EA2C86FFD46A4C6592CB1A78D5 /* GGMainSliderViewController-dummy.m in Sources */,
-				CCE0160A869AD5E908FD1F2289259492 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ACB340170B67D6318CA3C2FCA9EBAC31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AA1733F080DE443CC65F70F93A2ACBCA /* Pods-GGMainSliderViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5F397F7BBC9837C2FA8C795302A677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ECBA0E1AD76C5D127B7EBE5B7A8174 /* GGMainSliderViewController-dummy.m in Sources */,
+				466051E3566245666755D4EE540D0909 /* GGMainSliderViewController.m in Sources */,
+				C42A4AE5B7D2DDDBBC53F95BA4D26149 /* UIViewController+GGSliderFunc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,9 +448,9 @@
 			};
 			name = Debug;
 		};
-		272F901899EF900B989A6503E79E68EC /* Debug */ = {
+		348D0E8DEE8CEE3455EEA3DF26AA3BEF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F5C18CFF10CF482F9D6D342642E73FE /* GGMainSliderViewController.xcconfig */;
+			baseConfigurationReference = 9DF61F10E8F2A7E31BA8E30125697416 /* GGMainSliderViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -560,9 +572,9 @@
 			};
 			name = Debug;
 		};
-		799B5B6DB3B0DE676E168D799E941214 /* Release */ = {
+		6EE96334D0A744FD5F093AD37F29C5F9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F5C18CFF10CF482F9D6D342642E73FE /* GGMainSliderViewController.xcconfig */;
+			baseConfigurationReference = 9DF61F10E8F2A7E31BA8E30125697416 /* GGMainSliderViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -727,11 +739,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		394658DFC5A768C0882E6422878443E7 /* Build configuration list for PBXNativeTarget "GGMainSliderViewController" */ = {
+		0AF4F1218A4BC6417AA1441342DD5C0A /* Build configuration list for PBXNativeTarget "GGMainSliderViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				272F901899EF900B989A6503E79E68EC /* Debug */,
-				799B5B6DB3B0DE676E168D799E941214 /* Release */,
+				348D0E8DEE8CEE3455EEA3DF26AA3BEF /* Debug */,
+				6EE96334D0A744FD5F093AD37F29C5F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
